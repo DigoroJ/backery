@@ -49,7 +49,7 @@ export class ProductsComponent implements OnInit {
       category: '../../../assets/p3.jpg',
     },
   ];
-
+  
   productInCart: any = [];
   cartItem: any = {};
 
@@ -82,7 +82,7 @@ export class ProductsComponent implements OnInit {
   viewMore(product: any) {
     this.updateViewMore = product;
   }
-
+  
   addToCart(currentProduct: any) {
     this.totalInCart++;
 
